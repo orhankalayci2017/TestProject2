@@ -10,7 +10,7 @@ namespace TestProject2
         [Test]
         public void Test1()
         {
-            Assert.Pass();
+            Assert.That(createFibNum.fibNum(1),Is.EqualTo(1));
         }
     }
 }
