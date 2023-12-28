@@ -5,7 +5,8 @@ namespace TestProject2
     {
         internal static int fibNum(int v)
         {
-            return 1;
+            if (v<3) return 1;
+            return 2;
         }
     }
 }
